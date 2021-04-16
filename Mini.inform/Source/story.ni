@@ -1,6 +1,6 @@
 "Mini" by Peter Killworth (original design) and Terry Boon (adaptation and implementation in Inform 7)
 
-Section 1: The Map
+Section 1 - The Map
 
 The Cobwebby Room is a room. "You are in a crumbling room full of cobwebs. A passage leads west. [if the barred door is closed]A barred door blocks the way north.[otherwise]A barred door stands open to the north." A shield is here. The shield is wearable.
 The Treasure Chamber is a room. "You are in a vast treasure chamber, with an exit south. [if the barred door is closed]A barred door blocks the way south.[otherwise]A barred door stands open to the south." A jewelled crown is here.
@@ -9,7 +9,7 @@ The Pink Room is west of the Cobwebby Room. "You are in a cheerful pink room. Th
 The whirling blades are north of the Pink Room and south of the Alcove. The whirling blades are a door. The whirling blades are open. The whirling blades are not openable. The whirling blades are scenery.
 The Alcove is a room. "You're to the north of the pink room in an alcove The only exit seems to be back the way you came, south through the whirling blades." A black rod is here.
 
-Section 2: Getting through the whirling blades by wearing a shield
+Section 2 - Getting through the whirling blades by wearing a shield
 
 Check going through the whirling blades:
 	say "The knives stab at you while you pass.";
@@ -23,7 +23,7 @@ Check going through the whirling blades:
 		say "They slice you to ribbons. You have departed the world.";
 		end the story instead.
 
-Section 3: Escaping the alcove by saying a magic word
+Section 3 - Escaping the alcove by saying a magic word
 
 Understand "blah" or "say blah" as casting blah.
 Casting blah is an action applying to nothing.
@@ -34,7 +34,7 @@ Carry out casting blah:
 	say "There is a fanfare of cream horns, and you are thrown through the air!";
 	now the player is in the Cobwebby Room.
 
-Section 4: Opening the barred door to the treasure room by waving the black rod
+Section 4 - Opening the barred door to the treasure room by waving the black rod
 
 After waving (noun):
 	if the player is in the Cobwebby Room and the barred door is closed and noun is black rod:
@@ -43,7 +43,7 @@ After waving (noun):
 	otherwise:
 		say "Nothing happens."
 
-Section 5: The countdown - rising water levels
+Section 5 - The countdown - rising water levels
 
 Table of Water Levels
 Turn Number	Message
@@ -64,7 +64,7 @@ Every turn:
 	if Turn Count is 11:
 		end the story saying "You have departed the world!".
 
-Section 6: Achieving victory by taking the crown
+Section 6 - Achieving victory by taking the crown
 
 Carry out taking the crown:
 	end the story finally saying "The crown is yours! Well done!".
