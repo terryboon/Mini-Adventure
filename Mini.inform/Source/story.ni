@@ -1,4 +1,10 @@
-"Mini" by Peter Killworth (original design) and Terry Boon (adaptation and implementation in Inform 7)
+The story title is "Mini". 
+The story author is "Terry Boon (based on an original design by Peter Killworth)". 
+The story headline is "A small adventure". 
+The story genre is "Fantasy". 
+The release number is 1. 
+The story description is "An adaptation of Peter Killworth's 'Mini' adventure from 'How To Write Adventure Games for the BBC Microcomputer Model B and Acorn Electron' (1984), implemented in Inform 7. 'Mini' is a small (four-room) text adventure in which the player must find the crown to win, while water rises from beneath." 
+The story creation year is 2021. 
 
 Section 1 - The Map
 
